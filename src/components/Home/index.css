@@ -17,6 +17,9 @@
 .teams-list-container {
   width: 90%;
   max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -44,5 +47,17 @@
 .teams-list {
   display: flex;
   flex-wrap: wrap;
-  padding-left:0px;
+  padding-left: 0px;
+}
+
+.own-div{
+  margin-top:auto;
+}
+
+.own {
+  color: white;
+  font-weight: bold;
+  opacity: 50%;
+  font-size: 15px;
+  letter-spacing: 3px;
 }
